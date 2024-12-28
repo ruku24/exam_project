@@ -1,0 +1,99 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Exo 2", serif;
+}
+/* ol, ul, li{
+    margin: 0;
+    padding: 0;
+} */
+
+.common_btn{
+    background-color: #ff3150;
+    color: #ffc501;
+    padding: 10px 40px;
+    text-decoration: none;
+    border-radius: 30px;
+}
+
+.common_header h2{
+    font-size: 35px;
+}
+.header_section{
+    background-color: #19283f;
+   
+}
+
+.header_section .navbar-nav .nav-item .nav-link{
+    color: #fff;
+}
+.hero_content{
+    padding: 140px 0px;
+}
+
+.portfolio_item{
+    position: relative;
+    border: 2px solid #f2bcbc;
+}
+.portfolio_caption{
+    position: absolute;
+    top: 50px;
+    left: 89px;
+   visibility: hidden;
+}
+.portfolio_item:hover{
+   background-color: #ff3150 !important;
+   z-index: 999;
+  
+}
+.portfolio_caption:hover{
+    visibility: visible;
+}
+.team_item{
+    padding: 14px 10px;
+    border: 2px solid #f1f1f1;
+}
+.team_name{
+    background-color: #33d1cc;
+}
+.team_item p{
+    text-align: justify;
+}
+.team_header h2{
+    color: #ffc501;
+}
+
+
+.startp_section {
+    background-color: #19283f;
+}
+.blog_item{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.blog_item .card{
+    border: none;
+}
+.subscribe_section{
+    background-color: #ffc501;
+}
+.subs_btn{
+    background-color: #19283f;
+    color: #ffc501;
+    padding: 10px 80px;
+    text-decoration: none;
+    border-radius: 30px;
+}
+
+.footer_section{
+    background-color: #19283f;
+}
+.footer_about p{
+    text-align: justify;
+}
+
+.quick_link .nav-link{
+    color: #fff;
+}
